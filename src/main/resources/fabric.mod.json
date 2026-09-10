@@ -1,11 +1,11 @@
 {
     "schemaVersion": 1,
-    "id": "avalon1amod",
+    "id": "avalonia-mod",
     "version": "1.0.0",
-    "name": "Avalon1aMod",
-    "description": "Avalon1aMod",
+    "name": "AvaloniaMod",
+    "description": "Avalonia Mod",
     "authors": [
-        "Avalon1a"
+        "Avalon1an"
     ],
     "environment": "client",
     "entrypoints": {
