@@ -32,6 +32,5 @@ Typical range: Beyond ~1,875,000 blocks in the Nether or ~15,000,000 blocks in t
 
 AvaloniaMod is currently at v1.0.0, with more modules planned.
 
-Have an idea for something that would be useful on Constantiam? Suggestions, improvements, and module ideas can be submitted through Constantiam chat whispers. (Username Avalon1an)
+Have an idea for something that would be useful in this module? Suggestions, improvements, bug reports, and module ideas can be submitted through Constantiam chat whispers. (Username Avalon1an)
 
-Built by Avalon1an
