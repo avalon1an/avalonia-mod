@@ -8,7 +8,7 @@ public class avaloniamod extends MeteorAddon {
 
     @Override
     public void onInitialize() {
-        System.out.println("avalon1amod loaded!");
+        System.out.println("avalonia mod loaded!");
 
         Modules.get().add(new HighwayNOOBFix());
         Modules.get().add(new HighwayYESOBFix());
