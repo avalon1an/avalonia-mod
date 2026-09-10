@@ -1,0 +1,21 @@
+{
+    "schemaVersion": 1,
+    "id": "avalon1amod",
+    "version": "1.0.0",
+    "name": "Avalon1aMod",
+    "description": "Avalon1aMod",
+    "authors": [
+        "Avalon1a"
+    ],
+    "environment": "client",
+    "entrypoints": {
+        "meteor": [
+            "com.example.avalon1amod.avaloniamod"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.16.0",
+        "minecraft": "~1.21.1",
+        "meteor-client": "*"
+    }
+}
