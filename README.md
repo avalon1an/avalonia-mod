@@ -1,26 +1,37 @@
 # AvaloniaMod
 
+A collection of Meteor Client modules for Minecraft 1.21.4, built primarily for Constantiam.
 
-A collection of modules for Meteor Client version 1.21.4 (expanding to other versions soon)
-AvaloniaMod is made for Constantiam, and currently includes only 2 modules, but this list is expanding and is as follows.
+AvaloniaMod currently focuses on highway utility modules, with more planned for future releases.
 
-### 1. Highway Fix (without Ob Floor)
+## Modules
+### Highway Fix — Without Obsidian Floor
 
 <img src="imgs/HighwayNOOBFix.png" width="500">
-This module makes it so when you hit the highway floor, your elytra gets automatically recast.
-As long as the module is enabled, the elytra will recast at y 119.50, this is different from the 
-next module, which recasts at 120.50. As the module name describes, this is for recasting when there is NOT an obsidian floor on the highway (usually below 1,875,000 blocks on the nether highway or 15,000,000 blocks in the overworld)
 
-### 2. Highway Fix (with Ob Floor) 
+Description: Automatically recasts your Elytra when you reach the highway floor.
 
+Trigger: Y ≤ 119.50
+For: Highways without an obsidian floor
+Typical range: Below ~1,875,000 blocks in the Nether or ~15,000,000 blocks in the Overworld
+Highway Fix — With Obsidian Floor
+
+### Highway Fix - With Obsidian Floor
 <img src="imgs/HighwayYESOBFix.png" width="500">
-This module makes it so when you hit the highway floor, your elytra gets automatically recast.
-As long as the module is enabled, the elytra will recast at y 120.50, this is different from the 
-last module, which recasts at 119.50. As the module name describes, this is for recasting when there IS an obsidian floor on the highway (usually past 1,875,000 blocks on the nether highway or 15,000,000 blocks in the overworld)
+
+Automatically recasts your Elytra slightly higher to account for highways with an obsidian floor.
+
+Trigger: Y ≤ 120.50
+For: Highways with an obsidian floor
+Typical range: Beyond ~1,875,000 blocks in the Nether or ~15,000,000 blocks in the Overworld
 
 
 
 
-There will soon be more modules added, this is simply version 1.0.0. I am all ears for suggestions for modules and whatnot. Let me know in Constantiam chat.
 
-Username is avalon1an
+
+AvaloniaMod is currently at v1.0.0, with more modules planned.
+
+Have an idea for something that would be useful on Constantiam? Suggestions, improvements, and module ideas can be submitted through Constantiam chat whispers. (Username Avalon1an)
+
+Built by Avalon1an
