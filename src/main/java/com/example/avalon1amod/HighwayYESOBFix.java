@@ -61,6 +61,19 @@ public class HighwayYESOBFix extends Module {
 
         double y = mc.player.getY();
 
+        if (y >= 121.20) {
+            if (elytraFly != null && elytraFly.isActive()) {
+                elytraFly.toggle();
+            }
+
+            mc.player.stopGliding();
+
+            delayTicks = R_TO_SPACE_DELAY;
+            sequence = 1;
+
+            return;
+        }
+
         if (y <= TRIGGER_Y && sequence == 0) {
             if (elytraFly != null && elytraFly.isActive()) {
                 elytraFly.toggle();
@@ -110,4 +123,3 @@ public class HighwayYESOBFix extends Module {
         mc.options.jumpKey.setPressed(false);
     }
 }
-
